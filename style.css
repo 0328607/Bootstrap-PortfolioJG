@@ -1,3 +1,10 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: red;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -10,6 +17,39 @@
     margin: 0 auto;
     clear: both;
     color: red;
+}
+.container a{
+    color: red;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin-bottom: 20px;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: black;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid red;
+}
+
+h2,
+h3{
+    font-size: 22px;
 }
 
 /* header*/
@@ -36,7 +76,7 @@ nav a {
     margin-left: 15px;
     line-height: 18px;
     color: red;
-    text-decoration: mome;
+    text-decoration: none;
     border-left: 1px solid orange;
 }
 
@@ -104,6 +144,16 @@ h3, .sidebar h2 {
 }
 
 .work h3{
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 200;
+    color: red;
+    text-align: center;
+    background: silver;
+    border-bottom: 0;
 
 }
 .work{
@@ -113,6 +163,10 @@ h3, .sidebar h2 {
     margin: 20px 0 25px;
     overflow: auto;
 }
+
+/*contact page*/
+
+
 
 /* footer*/
 footer{
